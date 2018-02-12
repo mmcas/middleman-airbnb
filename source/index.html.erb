@@ -2,6 +2,8 @@
 title: Le Wagon - Middleman
 ---
 
+<%= partial "layouts/banner" %>
+
 <div id="home">
   <div class="home-content">
     <%= image_tag "logo.png", width: "200" %>
@@ -13,3 +15,29 @@ title: Le Wagon - Middleman
     </p>
   </div>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6 col-sm-4">
+      <%= partial "layouts/card" %>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <%= partial "layouts/card" %>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <%= partial "layouts/card" %>
+    </div>
+    <div class="col-xs-6 col-sm-4">
+      <%= partial "layouts/card" %>
+   </div>
+    <div class="col-xs-6 col-sm-4">
+      <%= partial "layouts/card" %>
+   </div>
+    <div class="col-xs-6 col-sm-4">
+      <%= partial "layouts/card" %>
+   </div>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,18 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+<div id="about">
+  <div class="about-content">
+    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
+    <ul class="list-inline">
+      <% ["afebles", "mmcas"].each do |user| %>
+        <li>
+           <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user}", class: "img-circle" %>
+      <h3><%= user.capitalize %></h3>
+        </li>
+      <% end %>
+    </ul>
+    <%= link_to "Meet the team", "team.html", class: "btn btn-danger" %>
+  </div>
+</div>
